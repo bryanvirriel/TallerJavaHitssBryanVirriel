@@ -1,0 +1,4 @@
+@FunctionalInterface
+public interface Accion<T> {
+    void ejecutar(T t);
+}
